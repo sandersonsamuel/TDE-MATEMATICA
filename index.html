@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <title>TDE-Matemática</title>
+    <script src="js/script.js"></script>
 </head>
 <body>
     <div class="conteiner">
@@ -18,12 +19,12 @@
             </p>
 
             <span class="input-span">
-                <input placeholder="ex: (1, 2, 3)" class="input-q" type="text" id="input-q1">
-                <input class="button-q" type="button" value="Calcular">
+                <input placeholder="ex: 1, 2, 3" class="input-q" type="text" id="input-q1">
+                <input class="button-q" type="button" value="Calcular" id="button-q1">
             </span>
             
             <center>
-                <div class="res-area">
+                <div class="res-area" id="res-area-q1">
                     
                 </div>
             </center>
@@ -37,12 +38,12 @@
             </p>
 
             <span class="input-span">
-                <input placeholder="ex: (1, 2, 3)" class="input-q" type="text" id="input-q1">
-                <input class="button-q" type="button" value="Calcular">
+                <input placeholder="ex: 1 2 3 +" class="input-q" type="text" id="input-q2">
+                <input class="button-q" type="button" value="Calcular" id="button-q2">
             </span>
             
             <center>
-                <div class="res-area">
+                <div class="res-area" id="res-area-q2">
                     
                 </div>
             </center>
@@ -56,12 +57,12 @@
             </p>
 
             <span class="input-span">
-                <input placeholder="ex: (1, 2, 3)" class="input-q" type="text" id="input-q1">
-                <input class="button-q" type="button" value="Calcular">
+                <input placeholder="ex: (1, 2, 3)" class="input-q" type="text" id="input-q3">
+                <input class="button-q" type="button" value="Calcular" id="button-q3">
             </span>
             
             <center>
-                <div class="res-area">
+                <div class="res-area" id="res-area-q3">
                     
                 </div>
             </center>
@@ -75,12 +76,12 @@
             </p>
 
             <span class="input-span">
-                <input placeholder="ex: (1, 2, 3)" class="input-q" type="text" id="input-q1">
-                <input class="button-q" type="button" value="Calcular">
+                <input placeholder="ex: (1, 2, 3)" class="input-q" type="text" id="input-q4">
+                <input class="button-q" type="button" value="Calcular" id="button-q4">
             </span>
             
             <center>
-                <div class="res-area">
+                <div class="res-area" id="res-area-q4">
                     
                 </div>
             </center>
@@ -91,16 +92,15 @@
             </h1>
             <p>
                 5.	Entrada: Valores para n e r, 0 <= r <= n. Saída: Valor de C(n, r)
-
             </p>
 
             <span class="input-span">
-                <input placeholder="ex: (1, 2, 3)" class="input-q" type="text" id="input-q1">
-                <input class="button-q" type="button" value="Calcular">
+                <input placeholder="ex: (1, 2, 3)" class="input-q" type="text" id="input-q5">
+                <input class="button-q" type="button" value="Calcular" id="button-q5">
             </span>
             
             <center>
-                <div class="res-area">
+                <div class="res-area" id="res-area-q5">
                     
                 </div>
             </center>
@@ -111,16 +111,15 @@
             </h1>
             <p>
                 6.	Entrada: Valor de n. Saída: Todos os valores de C(n, r), 0 <= r <= n
-
             </p>
 
             <span class="input-span">
-                <input placeholder="ex: (1, 2, 3)" class="input-q" type="text" id="input-q1">
-                <input class="button-q" type="button" value="Calcular">
+                <input placeholder="ex: (1, 2, 3)" class="input-q" type="text" id="input-q6">
+                <input class="button-q" type="button" value="Calcular" id="button-q6">
             </span>
             
             <center>
-                <div class="res-area">
+                <div class="res-area" id="res-area-q6">
                     
                 </div>
             </center>
@@ -135,12 +134,12 @@
             <p>a. Use o teorema binomial para calcular o resultado.</p>
 
             <span class="input-span">
-                <input placeholder="ex: (1, 2, 3)" class="input-q" type="text" id="input-q1">
-                <input class="button-q" type="button" value="Calcular">
+                <input placeholder="ex: (1, 2, 3)" class="input-q" type="text" id="input-q7-a">
+                <input class="button-q" type="button" value="Calcular" id="button-q7-a">
             </span>
             
             <center>
-                <div class="res-area">
+                <div class="res-area" id="res-area-q7-a">
                     
                 </div>
             </center>
@@ -150,21 +149,23 @@
                 Questão 7
             </h1>
             <p>
-                <strong>7.	Entrada: Valores para a, b e n. Saída: Valor de (a + b)^n</strong>
+                <strong>7. Entrada: Valores para a, b e n. Saída: Valor de (a + b)^n</strong>
             </p>
             <p>b. Calcule a + b e eleve este valor à n-ésima potência, compare sua resposta com a parte (a).</p>
-
+        
             <span class="input-span">
-                <input placeholder="ex: (1, 2, 3)" class="input-q" type="text" id="input-q1">
-                <input class="button-q" type="button" value="Calcular">
+                <input placeholder="ex: (1, 2, 3)" class="input-q" type="text" id="input-q7-b">
+                <input class="button-q" type="button" value="Calcular" id="button-q7-b">
             </span>
             
             <center>
-                <div class="res-area">
+                <div class="res-area" id="res-area-q7-b">
                     
                 </div>
             </center>
         </div>
     </div>
 </body>
-</html>
+
+
+        

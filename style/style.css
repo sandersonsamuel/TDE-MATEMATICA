@@ -62,8 +62,9 @@ body{
     margin-top: 10px;
     background-color: #8e928f80;
     border-radius: 20px;
-    height: 30px;
+    height: auto;
     padding: 30px;
+    font-size: 20px;
 }
 #q7-b{
     margin-bottom: 50px;
